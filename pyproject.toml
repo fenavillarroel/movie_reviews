@@ -9,6 +9,8 @@ python = "^3.10"
 fastapi = "^0.101.1"
 peewee = "^3.16.3"
 pymysql = "^1.1.0"
+python-multipart = "^0.0.6"
+PyJWT = "^2.8.0"
 
 [tool.poetry.dev-dependencies]
 uvicorn = "^0.23.2"

@@ -25,7 +25,6 @@ class UserResposeModel(BaseModel):
     username: str
 
 class ReviewRequestModel(BaseModel, ReviewValidator):
-    user_id: int
     movie_id: int
     reviews: str
     score: int
